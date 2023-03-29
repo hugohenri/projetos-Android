@@ -18,16 +18,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Peso" />
+            android:hint="Peso"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/editAltura"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Altura" />
+            android:hint="Altura"
+            android:inputType="textPersonName" />
 
         <Button
             android:id="@+id/button2"
@@ -39,12 +39,14 @@
             android:id="@+id/textResultado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Resultado" />
+            android:text="Resultado"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textSituacao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Situação" />
+            android:text="Situação"
+            android:textSize="20sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
