@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANAMNESE" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QUESTIONÁRIO SOBRE ESTADO DE SAÚDE" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.IDENTIFICAÇÃO" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOME" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SEXO" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MASCULINO" />
+
+                <RadioButton
+                    android:id="@+id/radioButton15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FEMININO" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DATA DE NASCIMENTO" />
+
+            <EditText
+                android:id="@+id/editTextDate2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IDADE" />
+
+            <EditText
+                android:id="@+id/editTextNumber2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.ATIVIDADE DA VIDA DIÁRIA" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NÚMERO DE HORAS TRABALHADAS POR SEMANA" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MENOS DE 20" />
+
+                <RadioButton
+                    android:id="@+id/radioButton17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="20 A 40" />
+
+                <RadioButton
+                    android:id="@+id/radioButton18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="41 A 60" />
+
+                <RadioButton
+                    android:id="@+id/radioButton19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MAIS DE 60" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ATIVIDADES DESEMPENHADAS NO TRABALHO (+ DE 25%)" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SENTAR NA CADEIRA" />
+
+                <RadioButton
+                    android:id="@+id/radioButton21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CAMINHAR" />
+
+                <RadioButton
+                    android:id="@+id/radioButton22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LEVANTAR OU CARREGAR PESOS" />
+
+                <RadioButton
+                    android:id="@+id/radioButton23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DIRIGIR" />
+
+                <RadioButton
+                    android:id="@+id/radioButton25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FICAR DE PÉ" />
+
+                <RadioButton
+                    android:id="@+id/radioButton24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="OUTROS" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.HISTÓRICO MÉDICO" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MARQUE AQUELE(S) QUE TENHA(M) TIDO ALGUM TIPO DE CARDIOPATIA ANTES DOS 50 ANOS" />
+
+
+
+            <CheckBox
+                    android:id="@+id/checkBox01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PAI" />
+
+            <CheckBox
+                    android:id="@+id/checkBox02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MÃE" />
+
+            <CheckBox
+                    android:id="@+id/checkBox03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IRMÃO(Ã)" />
+
+            <CheckBox
+                    android:id="@+id/checkBox04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AVÔ/AVÓ" />
+
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MARQUE AS INTEVEÇÕES CIRUGICAS QUE VOCÊ TENHA FEITO " />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COLUNA" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RIM" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CORAÇÃO" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PULMÃO" />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ARTICULAÇÃO" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OLHOS" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HÉRNIA DE DISCO" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NÃO" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OUTRAS" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MARQUE O(S) PROBLEMA(S) ABAIXO QUE TENHA SIDO DIAGNOSTICADO(A) OU TRATADO(A) POR UM MÉDICO" />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ALCOOLISMO" />
+
+            <CheckBox
+                android:id="@+id/checkBox16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ARTRITE" />
+
+            <CheckBox
+                android:id="@+id/checkBox24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIABETES" />
+
+            <CheckBox
+                android:id="@+id/checkBox23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PROBLEMAS MUSCULARES" />
+
+            <CheckBox
+                android:id="@+id/checkBox22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PROBLEMA RENAL" />
+
+            <CheckBox
+                android:id="@+id/checkBox21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PROBLEMA OCULARES" />
+
+            <CheckBox
+                android:id="@+id/checkBox20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PRESSÃO ARTERIAL ALTA" />
+
+            <CheckBox
+                android:id="@+id/checkBox18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OUTROS" />
+
+            <CheckBox
+                android:id="@+id/checkBox19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ENFISEMA" />
+
+            <CheckBox
+                android:id="@+id/checkBox14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÚLCERA" />
+
+            <CheckBox
+                android:id="@+id/checkBox17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AVC" />
+
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANEMIA" />
+
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ASMA" />
+
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OBESIDADE" />
+
+            <CheckBox
+                android:id="@+id/checkBox25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NÃO" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INDIQUE OS SINTOMAS, CONFORME SEGUE:" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A)TOSSE COM SANGUE" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SEMPRE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ALGUMAS VEZES" />
+
+                <RadioButton
+                    android:id="@+id/radioButton32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NUNCA" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B)DOR ABDOMINAL" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SEMPRE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ALGUMAS VEZES" />
+
+                <RadioButton
+                    android:id="@+id/radioButton35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NUNCA" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C)DOR NAS PERNAS" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SEMPRE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ALGUMAS VEZES" />
+
+                <RadioButton
+                    android:id="@+id/radioButton38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NUNCA" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="D)DOR NOS BRAÇOS" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SEMPRE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ALGUMAS VEZES" />
+
+                <RadioButton
+                    android:id="@+id/radioButton41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NUNCA" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E)DOR NAS COSTAS OU PESCOÇO" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SEMPRE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ALGUMAS VEZES" />
+
+                <RadioButton
+                    android:id="@+id/radioButton44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NUNCA" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="F)DOR NO PEITO" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SEMPRE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ALGUMAS VEZES" />
+
+                <RadioButton
+                    android:id="@+id/radioButton47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NUNCA" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="G)DORES ARTICULARES" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SEMPRE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton49"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ALGUMAS VEZES" />
+
+                <RadioButton
+                    android:id="@+id/radioButton50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NUNCA" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="H)TFALTA DE AR COM ESFORÇO LEVE" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SEMPRE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton52"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ALGUMAS VEZES" />
+
+                <RadioButton
+                    android:id="@+id/radioButton53"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NUNCA" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I)SENTIR-SE FRACO" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton54"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SEMPRE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton55"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ALGUMAS VEZES" />
+
+                <RadioButton
+                    android:id="@+id/radioButton56"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NUNCA" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="J)TONTURA" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton57"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SEMPRE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton58"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ALGUMAS VEZES" />
+
+                <RadioButton
+                    android:id="@+id/radioButton59"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NUNCA" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="K)PALPITAÇÃO OU BATIMENTO CARDIACO ACELERADO" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton60"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SEMPRE" />
+
+                <RadioButton
+                    android:id="@+id/radioButton61"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ALGUMAS VEZES" />
+
+                <RadioButton
+                    android:id="@+id/radioButton62"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NUNCA" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
